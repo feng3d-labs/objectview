@@ -1,0 +1,27 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "..",
+    "sourceFiles": [
+      "../src/ObjectView.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 17094,
+          "kind": "text"
+        }
+      ]
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 9142,
+          "kind": "text"
+        }
+      ]
+    }
+  },
+  "version": "3.9.7"
+}
