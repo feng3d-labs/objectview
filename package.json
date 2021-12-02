@@ -1,0 +1,20 @@
+{
+  "name": "@feng3d/objectview",
+  "version": "0.3.4",
+  "description": "ObjectView是feng3d中实现由数据对象自动生成界面的一套框架。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/feng3d/objectview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/feng3d/objectview/issues"
+  },
+  "homepage": "https://gitlab.com/feng3d/objectview#readme"
+}
