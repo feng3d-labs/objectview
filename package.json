@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bundle": "dist/index.js",
+  "bundleName": "feng3d",
   "bundle:types": "dist/index.d.ts",
   "author": "feng",
   "license": "MIT",
@@ -33,7 +34,7 @@
     "access": "public"
   },
   "files": [
-    "dist/",
+    "dist",
     "lib",
     "src",
     "readme"
