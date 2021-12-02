@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bundle": "dist/index.js",
-  "bundleName": "feng3d",
+  "bundleName": "objectview",
   "bundle:types": "dist/index.d.ts",
   "author": "feng",
   "license": "MIT",
@@ -19,7 +19,9 @@
     "lint": "eslint --ext .js --ext .ts src test rollup.config.js --ignore-path .gitignore --max-warnings 0",
     "lintfix": "npm run lint -- --fix",
     "test": "mocha",
-    "docs": "rimraf public && typedoc"
+    "docs": "rimraf public && typedoc",
+    "publish:pre": "npm version patch && npm run build && npm run bundle",
+    "publish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
