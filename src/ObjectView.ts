@@ -677,7 +677,7 @@ export interface ClassDefinition
 /**
  * 对象属性界面接口
  */
-export interface IObjectAttributeView
+export interface IObjectAttributeView extends MixinsIObjectAttributeView
 {
 	/**
 	 * 界面所属对象（空间）
@@ -713,7 +713,7 @@ export interface IObjectAttributeView
 /**
  * 对象属性块界面接口
  */
-export interface IObjectBlockView
+export interface IObjectBlockView extends MixinsIObjectBlockView
 {
 	/**
 	 * 界面所属对象（空间）
@@ -745,7 +745,7 @@ export interface IObjectBlockView
 /**
  * 对象界面接口
  */
-export interface IObjectView
+export interface IObjectView extends MixinsIObjectView
 {
 	/**
 	 * 界面所属对象（空间）
